@@ -1,0 +1,122 @@
+html {
+  scroll-behavior: smooth;
+  background-color: #000; 
+}
+.wrapper {
+  max-width: calc(100%);
+  margin: 0 auto;
+}
+header{
+  position: fixed;
+  right: 0;
+  z-index: 1;
+}
+.language {
+  color: #ffffff;
+  padding-top: 10px;
+  padding-right: 20px;
+  font-size: 22px;
+}
+.change-lang {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  margin: 0;
+  padding-left: 0;
+  cursor: pointer;
+}
+.change-lang button {
+  background: none;
+  font-family: inherit;
+  color: #ffffff;
+  width: 25px;
+  height: 55px;
+  padding-bottom: 28px;
+  cursor: pointer;
+}
+.slash {
+  padding-left: 6px;
+}
+.lang:hover {
+  color: #bdae82;
+  transition: 0.3s;
+}
+.lang.active { 
+  color: #bdae82;
+}
+.hero-video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  max-width: 100%;
+  height: auto;
+}
+.content {
+  position: fixed;
+  color: #f1f1f1;
+  width: 40%;
+  margin-left: 20px;
+
+}
+.hero-btn {
+  width: 150px;
+  font-size: 18px;
+  padding: 10px;
+  margin-top: 20px;
+  border: none;
+  background: #000;
+  color: #fff;
+  cursor: pointer;
+}
+.hero-btn:hover {
+  background: #ddd;
+  color: black;
+  transition: 0.5s;
+}
+.hero-author{
+  font-family: Merriweather;
+}
+.hero-quote {
+  font-family: Inter;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  letter-spacing: 0.02em;
+  line-height: 40px;
+}
+.footer-info {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  top: 700px;
+}
+.footer-item:nth-child(1){
+  display: flex;
+  width: 200px;
+  padding-top: 10px;
+  justify-content: space-between;
+}
+.footer-item span {
+  font-size: 20px;
+}
+.rsschool-link{
+  /* background-image: url(./img/rs_school_js.svg);
+  background-repeat: no-repeat; */
+  cursor: pointer;
+  width: 100px;
+  height: 40px;
+}
+.githab-link:hover, .rsschool-link:hover{
+  filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%)
+    contrast(87%);
+    transition: 0.6s;
+}
+.footer-item {
+  color: #ffffff;
+}
+.footer-item a {
+  color: #ffffff;
+  font-size: 20px;
+  text-decoration: none;
+}
