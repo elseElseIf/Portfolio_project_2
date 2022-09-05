@@ -2,7 +2,7 @@ window.onload = function () {
   if (localStorage.getItem("lang")) {
     changeQuote();
   } else {
-    let lang = "bel";
+    let lang = "eng";
     localStorage.setItem("lang", lang);
     changeQuote();
   }
